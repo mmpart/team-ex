@@ -4,7 +4,7 @@ public class Tamo {
 
 	private String name;
 	private int age;
-	private String color;
+	private String hobby;
 	private String gender;
 
 	public String getName() {
@@ -24,11 +24,11 @@ public class Tamo {
 	}
 
 	public String getColor() {
-		return color;
+		return hobby;
 	}
 
-	public void setColor(String color) {
-		this.color = color;
+	public void setColor(String hobby) {
+		this.hobby = hobby;
 	}
 
 	public String getGender() {
@@ -41,7 +41,7 @@ public class Tamo {
 
 	@Override
 	public String toString() {
-		return "Tamo [name=" + name + ", age=" + age + ", color=" + color + ", gender=" + gender + "]";
+		return "Tamo [name=" + name + ", age=" + age + ", hobby=" + hobby + ", gender=" + gender + "]";
 	}
 
 }
