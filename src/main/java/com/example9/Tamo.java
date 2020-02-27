@@ -4,7 +4,7 @@ public class Tamo {
 
 	private String name;
 	private int age;
-	private String color;
+	private String history;
 	private String gender;
 
 	public String getName() {
@@ -23,12 +23,12 @@ public class Tamo {
 		this.age = age;
 	}
 
-	public String getColor() {
-		return color;
+	public String getHistory() {
+		return history;
 	}
 
-	public void setColor(String color) {
-		this.color = color;
+	public void setHistory(String history) {
+		this.history = history;
 	}
 
 	public String getGender() {
@@ -41,7 +41,7 @@ public class Tamo {
 
 	@Override
 	public String toString() {
-		return "Tamo [name=" + name + ", age=" + age + ", color=" + color + ", gender=" + gender + "]";
+		return "Tamo [name=" + name + ", age=" + age + ", history=" + history + ", gender=" + gender + "]";
 	}
 
 }
